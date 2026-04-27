@@ -1,6 +1,8 @@
 function FooterBtn() {
   return (
-    <button>Sign-Up Now!</button>
+    <div className="footer-btn">
+      <button>Sign-Up Now!</button>
+    </div>
   )
 }
-export default FooterBtn
+export default FooterBtn;

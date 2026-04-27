@@ -2,10 +2,9 @@ import ServiceLinks from "./ServiceLinks";
 
 function ServiceBar() {
   return (
-    <section>
+    <section className="service-bar">
       <ServiceLinks />
     </section>
   )
 }
-
-export default ServiceBar
+export default ServiceBar;

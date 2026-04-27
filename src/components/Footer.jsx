@@ -1,12 +1,12 @@
 import FooterColumn from "./FooterColumn";
 
 function Footer() {
-    return (
-        <footer>
-            <FooterColumn />
-            <FooterColumn />
-            <FooterColumn />
-        </footer>
-    )
+  return (
+    <footer className="footer">
+      <FooterColumn />
+      <FooterColumn />
+      <FooterColumn />
+    </footer>
+  )
 }
-export default Footer
+export default Footer;

@@ -1,11 +1,11 @@
-import NavLinks from "./NavLinks";
+import NavBar from "./NavBar";
 
-function NavBar() {
+function Header() {
   return (
-    <nav>
-      <NavLinks />
-    </nav>
+    <header className="header">
+      <img src="/img/dc-logo.png" alt="DC Logo" />
+      <NavBar />
+    </header>
   )
 }
-
-export default NavBar;
+export default Header;

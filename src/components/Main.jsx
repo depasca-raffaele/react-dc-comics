@@ -1,9 +1,8 @@
 function Main() {
   return (
-    <main>
+    <main className="main">
       <p>--&gt; Content goes here &lt;--</p>
     </main>
   )
 }
-
 export default Main;

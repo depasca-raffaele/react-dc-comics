@@ -1,10 +1,10 @@
-import NavBar from "./NavBar";
-
+//import NavBar from "./NavBar";
+import NavLinks from "./NavLinks";
 function Header() {
   return (
     <header>
       <img src="/img/dc-logo.png" alt="DC Logo" />
-      <NavBar/>
+      <NavLinks/>
     </header>
   )
 }

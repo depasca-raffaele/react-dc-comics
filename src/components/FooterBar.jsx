@@ -11,14 +11,16 @@ const socialLinks = [
 function FooterBar() {
   return (
     <div className="footer-bar">
-      <FooterBtn />
-      <div className="follow-us">
-        <span>Follow Us</span>
-        {socialLinks.map((social) => (
-          <a key={social.id} href={social.href} aria-label={social.name}>
-            <img src={social.img} alt={social.name} />
-          </a>
-        ))}
+      <div className="container-xl d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+        <FooterBtn />
+        <div className="follow-us">
+          <span>Follow Us</span>
+          {socialLinks.map((social) => (
+            <a key={social.id} href={social.href} aria-label={social.name}>
+              <img src={social.img} alt={social.name} />
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -3,8 +3,11 @@ import ServiceLinks from "./ServiceLinks";
 function ServiceBar() {
   return (
     <section className="service-bar">
-      <ServiceLinks />
+      <div className="container-xl">
+        <ServiceLinks />
+      </div>
     </section>
-  )
+  );
 }
+
 export default ServiceBar;

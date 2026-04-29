@@ -1,11 +1,14 @@
-//import NavBar from "./NavBar";
 import NavLinks from "./NavLinks";
+
 function Header() {
   return (
-    <header>
-      <img src="/img/dc-logo.png" alt="DC Logo" />
-      <NavLinks/>
+    <header className="site-header">
+      <div className="container-xl d-flex align-items-center justify-content-between">
+        <img src="/img/dc-logo.png" alt="DC Logo" />
+        <NavLinks />
+      </div>
     </header>
-  )
+  );
 }
+
 export default Header;

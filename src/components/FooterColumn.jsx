@@ -8,6 +8,6 @@ function FooterColumn() {
         <FooterLinks />
       </div>
     </div>
-  )
+  );
 }
 export default FooterColumn;

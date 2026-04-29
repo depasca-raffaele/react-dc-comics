@@ -13,7 +13,7 @@ const navLinks = [
 
 function NavLinks() {
   return (
-    <ul className="nav-links">
+    <ul className="nav-links mb-0">
       {navLinks.map((item) => (
         <li key={item.id}>
           <a href={item.href} className={item.active ? "active" : ""}>

@@ -5,6 +5,6 @@ function FooterLinks() {
       <li><a href="#">Link 2</a></li>
       <li><a href="#">Link 3</a></li>
     </ul>
-  )
+  );
 }
 export default FooterLinks;

@@ -1,6 +1,4 @@
-import comics from "../data/comics";
-
-function Main() {
+function Main({comics}) {
   return (
     <>
       <section className="hero-banner" />

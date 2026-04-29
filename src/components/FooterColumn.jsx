@@ -1,11 +1,11 @@
 import FooterLinks from "./FooterLinks";
 
-function FooterColumn() {
+function FooterColumn({ column, links }) {
   return (
     <div className="footer-column">
       <div className="footer-section">
-        <h4>Title</h4>
-        <FooterLinks />
+        <h4>{column.title}</h4>
+        <FooterLinks links={links} />
       </div>
     </div>
   );

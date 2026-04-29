@@ -1,9 +1,11 @@
-function FooterLinks() {
+function FooterLinks({ links }) {
   return (
     <ul className="footer-links">
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
+      {links.map((link) => (
+        <li key={link.id}>
+          <a href="#">{link.label}</a>
+        </li>
+      ))}
     </ul>
   );
 }

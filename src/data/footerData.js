@@ -1,0 +1,31 @@
+export const footerColumns = [
+  { id: 1, title: "DC COMICS" },
+  { id: 2, title: "DC" },
+  { id: 3, title: "SITES" },
+];
+
+export const footerLinks = [
+  { id: 1,  label: "Characters",            columnId: 1 },
+  { id: 2,  label: "Comics",                columnId: 1 },
+  { id: 3,  label: "Movies",                columnId: 1 },
+  { id: 4,  label: "TV",                    columnId: 1 },
+  { id: 5,  label: "Games",                 columnId: 1 },
+  { id: 6,  label: "Videos",                columnId: 1 },
+  { id: 7,  label: "News",                  columnId: 1 },
+  { id: 8,  label: "Terms Of Use",          columnId: 2 },
+  { id: 9,  label: "Privacy Policy Portal", columnId: 2 },
+  { id: 10, label: "Ad Choices",            columnId: 2 },
+  { id: 11, label: "Advertising",           columnId: 2 },
+  { id: 12, label: "Jobs",                  columnId: 2 },
+  { id: 13, label: "Subscriptions",         columnId: 2 },
+  { id: 14, label: "Talent Workshops",      columnId: 2 },
+  { id: 15, label: "EPIC Certifications",   columnId: 2 },
+  { id: 16, label: "Ratings",               columnId: 2 },
+  { id: 17, label: "Shop Help",             columnId: 2 },
+  { id: 18, label: "Contact Us",            columnId: 2 },
+  { id: 19, label: "DC",                    columnId: 3 },
+  { id: 20, label: "MAD Magazine",          columnId: 3 },
+  { id: 21, label: "DC Kids",               columnId: 3 },
+  { id: 22, label: "DC Universe",           columnId: 3 },
+  { id: 23, label: "DC Power Visa",         columnId: 3 },
+];

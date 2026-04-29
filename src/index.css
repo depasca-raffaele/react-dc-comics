@@ -5,9 +5,7 @@
   --dc-muted: #959595;
 }
 
-*,
-*::before,
-*::after {
+*{
   box-sizing: border-box;
 }
 
